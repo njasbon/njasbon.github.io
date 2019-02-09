@@ -1,0 +1,38 @@
+@font-face {
+  font-family: selima;
+  src: url(../fonts/selima/selima_.otf);
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.snow .col {
+	background: url('../img/snow.jpg');
+	background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+    min-height: 800px;
+
+	font-family: selima;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
