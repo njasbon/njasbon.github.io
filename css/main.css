@@ -3,6 +3,11 @@
   src: url(../fonts/knockout/knockout.otf);
 }
 
+@font-face {
+  font-family: hipster_script;
+  src: url(../fonts/hipster_script/hipster_script.otf);
+}
+
 
 body {
     font: 1em/1.67 knockout, Sans-serif;
@@ -119,4 +124,21 @@ color: #888;
   min-height: 250px;
   position: initial;
   width: 100%;
+}
+
+h1.married {
+  text-align: center;
+  font-family: "hipster_script";
+  background-image: url("../img/blue_background.svg");
+}
+
+#married-item {
+  border: 5px solid beige;
+}
+
+#married_title{
+  font-family: "knockout";
+  font-size: 750% ;
+  text-align: center;
+  margin: 0;
 }
