@@ -50,6 +50,8 @@ display: block;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+    border: 5px solid beige;
+    color: darkslategrey;
 }
 
 .title, .footer {
@@ -128,12 +130,14 @@ color: #888;
 
 h1.married {
   text-align: center;
-  font-family: "hipster_script";
-  background-image: url("../img/blue_background.svg");
+  font-family: "knockout";
+  background-color: floralwhite;
+  color: darkslategrey;
+  border-radius: 5px;
 }
 
 #married-item {
-  border: 5px solid beige;
+  color: black;
 }
 
 #married_title{
