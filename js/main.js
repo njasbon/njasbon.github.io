@@ -6,7 +6,7 @@ function init_map(){
         scrollwheel: false,
       zoom:12,
       mapTypeControl: false,
-      center:new google.maps.LatLng(40.3643,-74.9513),
+      center:new google.maps.LatLng(40.730610,-73.935242),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
@@ -59,8 +59,8 @@ function init_map(){
       scaledSize: new google.maps.Size(80, 80), // scaled size
     };
 
-    marker = new google.maps.Marker({icon:icon,map: map,position: new google.maps.LatLng(40.3643,-74.9713)});
-    infowindow = new google.maps.InfoWindow({content:'<strong>Primrose Manor</strong>'});
+    marker = new google.maps.Marker({icon:icon,map: map,position: new google.maps.LatLng(40.730610,-73.935242)});
+    infowindow = new google.maps.InfoWindow({content:'<strong>The Manor</strong>'});
     google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
     infowindow.open(map,marker);
   }
